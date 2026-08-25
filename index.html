@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chef Minh Nguyễn — Tư vấn ẩm thực · Đào tạo · Private Chef</title>
+<meta name="description" content="Chef Minh Nguyễn — 15 năm nghề bếp. Tư vấn ẩm thực, đào tạo chuyên nghiệp, hợp tác thương hiệu và trải nghiệm private dining.">
+<meta name="theme-color" content="#120E0C">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chef Minh Nguyễn — Tư vấn ẩm thực · Đào tạo · Private Chef">
+<meta property="og:description" content="Chef Minh Nguyễn — 15 năm nghề bếp. Tư vấn ẩm thực, đào tạo chuyên nghiệp, hợp tác thương hiệu và trải nghiệm private dining.">
+<meta property="og:locale" content="vi_VN">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="assets/logo-64.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Be+Vietnam+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/chef-portrait.jpg" fetchpriority="high">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Một bông lúa, dùng cho viền con dấu và cho dấu phân cách -->
+    <g id="stalk">
+      <path d="M88 26 Q99 21 111 13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M91.5 24.2 l-2.6 -5.2 M95.5 22.6 l-2.6 -5.2 M99.5 20.8 l-2.6 -5.2 M103.5 18.6 l-2.6 -5.2 M107.5 16.2 l-2.6 -5.2"
+            fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M93 26.4 l-1.6 4.4 M98 24.4 l-1.6 4.4 M103 22 l-1.6 4.4"
+            fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+    </g>
+
+    <!-- CON DẤU ĐẦY ĐỦ — bản vẽ lại tạm thời, chờ file vector gốc -->
+    <g id="seal">
+      <circle class="seal-ring" style="--len:590" cx="100" cy="100" r="94" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle class="seal-ring seal-ring--b" style="--len:565" cx="100" cy="100" r="90" fill="none" stroke="currentColor" stroke-width="2.6"/>
+      <circle class="seal-ring seal-ring--b" style="--len:452" cx="100" cy="100" r="72" fill="none" stroke="currentColor" stroke-width="2.6"/>
+      <circle class="seal-ring" style="--len:427" cx="100" cy="100" r="68" fill="none" stroke="currentColor" stroke-width="1.2"/>
+
+      <g class="seal-grain">
+        <use href="#stalk"/>
+        <use href="#stalk" transform="rotate(30 100 100)"/>
+        <use href="#stalk" transform="rotate(60 100 100)"/>
+        <use href="#stalk" transform="rotate(90 100 100)"/>
+        <use href="#stalk" transform="rotate(120 100 100)"/>
+        <use href="#stalk" transform="rotate(150 100 100)"/>
+        <use href="#stalk" transform="rotate(180 100 100)"/>
+        <use href="#stalk" transform="rotate(210 100 100)"/>
+        <use href="#stalk" transform="rotate(240 100 100)"/>
+        <use href="#stalk" transform="rotate(270 100 100)"/>
+        <use href="#stalk" transform="rotate(300 100 100)"/>
+        <use href="#stalk" transform="rotate(330 100 100)"/>
+      </g>
+
+      <g class="seal-body" fill="currentColor">
+        <!-- Mũ đầu bếp -->
+        <path d="M74 78 C 68 56, 82 42, 96 49 C 103 40, 120 43, 124 55
+                 C 134 58, 134 74, 127 78 Z"/>
+        <path d="M84 52 v26 M92 47 v31 M100 45 v33 M108 47 v31 M116 51 v27"
+              stroke="#120E0C" stroke-width="2.2" fill="none" opacity=".92"/>
+        <rect x="72" y="78" width="56" height="13" rx="1.5"/>
+        <path d="M100 96 C 112 96, 116 104, 108 108 C 116 106, 118 98, 106 97 Z"/>
+      </g>
+
+      <g class="seal-body" fill="currentColor">
+        <!-- Dao Tây -->
+        <path d="M74 150 L 80 144 L 112 114 C 117 110, 122 115, 117 119 L 84 152 Z"/>
+        <!-- Đũa -->
+        <path d="M128 150 L 88 116" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+        <path d="M134 143 L 94 109" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+      </g>
+    </g>
+
+    <!-- Con dấu rút gọn cho header và footer (bỏ bớt chi tiết ở size nhỏ) -->
+    <g id="seal-mini">
+      <circle cx="100" cy="100" r="92" fill="none" stroke="currentColor" stroke-width="5"/>
+      <circle cx="100" cy="100" r="72" fill="none" stroke="currentColor" stroke-width="3"/>
+      <path d="M74 80 C 68 57, 83 43, 96 50 C 103 41, 121 44, 125 56
+               C 135 59, 135 76, 128 80 Z" fill="currentColor"/>
+      <rect x="72" y="80" width="56" height="14" rx="1.5" fill="currentColor"/>
+      <path d="M74 150 L 80 144 L 112 114 C 117 110, 122 115, 117 119 L 84 152 Z" fill="currentColor"/>
+      <path d="M128 150 L 88 116" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+      <path d="M134 143 L 94 109" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </defs>
+</svg>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr__in">
+    <a href="index.html" class="brand" aria-label="Chef Minh Nguyễn — trang chủ">
+      <img src="assets/logo-32.png" alt="" width="32" height="32" decoding="async">
+      <span class="brand__txt">CHEF MINH NGUYỄN</span>
+    </a>
+    <nav class="nav" aria-label="Điều hướng chính">
+      <a href="the-chef.html" data-i="chef"><span data-i18n="nav.chef">Chef</span></a>
+      <a href="cuisine.html" data-i="dish"><span data-i18n="nav.cuisine">Ẩm thực</span></a>
+      <a href="services.html" data-i="service"><span data-i18n="nav.services">Dịch vụ</span></a>
+      <a href="academy.html" data-i="book"><span data-i18n="nav.academy">Academy</span></a>
+      <a href="press.html" data-i="media"><span data-i18n="nav.press">Truyền thông</span></a>
+      <a href="blog.html" data-i="pen"><span data-i18n="nav.blog">Blog</span></a>
+    </nav>
+    <div class="hdr__right">
+      <div class="lang" role="group" aria-label="Ngôn ngữ">
+        <button type="button" data-lang="vi" aria-pressed="true">VI</button>
+        <span>/</span>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a href="index.html#contact" class="btn" data-i="chat"><span data-i18n="nav.cta">Làm việc cùng Chef</span></a>
+      <button class="burger" id="burger" aria-label="Mở menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="mmenu" id="mmenu">
+  <nav aria-label="Điều hướng di động">
+    <a href="the-chef.html" data-i="chef"><span data-i18n="nav.chef">Chef</span></a>
+    <a href="cuisine.html" data-i="dish"><span data-i18n="nav.cuisine">Ẩm thực</span></a>
+    <a href="services.html" data-i="service"><span data-i18n="nav.services">Dịch vụ</span></a>
+    <a href="academy.html" data-i="book"><span data-i18n="nav.academy">Academy</span></a>
+    <a href="press.html" data-i="media"><span data-i18n="nav.press">Truyền thông</span></a>
+    <a href="blog.html" data-i="pen"><span data-i18n="nav.blog">Blog</span></a>
+    <a href="index.html#contact" data-i="mail"><span data-i18n="nav.contact">Liên hệ</span></a>
+  </nav>
+  <a href="index.html#contact" class="btn btn--solid" data-i="chat"><span data-i18n="nav.cta">Làm việc cùng Chef</span></a>
+</div>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero hero--video">
+  <div class="hero__video" aria-hidden="true">
+    <video id="hero-video" poster="assets/hero-poster.jpg"
+           autoplay loop muted playsinline preload="auto"
+           disablepictureinpicture disableremoteplayback>
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="wrap hero__grid2">
+    <div>
+      <p class="hero__role rise rise--1" data-i18n="hero.role">Tư vấn ẩm thực · Đào tạo · Private Chef</p>
+      <h1 class="h-display hero__name">
+        <span class="word"><span>Chef</span></span>
+        <span class="word"><span>Minh Nguyễn</span></span>
+      </h1>
+      <p class="hero__sub type" data-type-key="hero.sub"
+         data-fallback="Hơn mười lăm năm trong bếp. Ẩm thực dần được chuyển mình bằng những kỹ thuật hiện đại, những câu chuyện về nguyên liệu, cùng các giá trị truyền thống — cho nhà hàng, cho người học nghề, và cho đến những bữa tiệc sang trọng."></p>
+      <div class="hero__cta rise rise--4">
+        <a href="the-chef.html" class="btn btn--solid btn--pulse" data-i18n="hero.cta1">Xem hành trình</a>
+        <a href="#contact" class="btn btn--pulse" data-i18n="hero.cta2">Làm việc cùng Chef</a>
+      </div>
+    </div>
+
+    <div class="hero__portrait rise rise--3">
+      <img src="assets/chef-portrait.jpg" alt="Chef Minh Nguyễn trong bếp"
+           width="900" height="1200" fetchpriority="high" decoding="async">
+      <span class="hero__cap" data-i="toque"><span data-i18n="hero.cap">Top Chef Việt Nam 2023 · Top 4</span></span>
+    </div>
+  </div>
+
+  <button class="sound-btn" id="sound-btn" type="button" aria-pressed="false">
+    <i></i><span data-i18n="hero.sound">Đang tắt tiếng</span>
+  </button>
+</section>
+
+<!-- ================= HÀNH TRÌNH ================= -->
+<section class="band band--raised" id="craft">
+  <div class="wrap">
+    <div class="craft reveal">
+      <div>
+        <div class="craft__num" id="counter">15</div>
+        <div class="craft__numlab" data-i18n="craft.label">Năm theo nghề</div>
+      </div>
+      <div>
+        <p class="eyebrow" data-i18n="craft.eyebrow">Hành trình</p>
+        <h2 class="h-2" data-i18n="craft.h">Nghề bếp học bằng thời gian,<br>không học bằng lối tắt.</h2>
+        <p class="lead" data-i18n="craft.lead">Chef Minh Nguyễn hiện nổi bật với vai trò Nhà sáng lập kiêm CEO của cộng đồng Vietchefs Worldwide (VCW) và gia nhập hiệp hội International Chefs Sans Frontières (CSFint). Anh đã tranh tài tại <a href="https://www.facebook.com/Minhnguyensg0110/" target="_blank" rel="noopener">Top Chef Việt Nam 2023</a> và Siêu Bếp 2025, đẩy mạnh các giá trị cốt lõi của ẩm thực Việt Nam trước thềm APEC 2027, lan toả văn hoá ẩm thực thuần vị và kết nối thị trường.</p>
+        <div class="stats">
+          <div class="stat"><b>Top 4</b><span data-i18n="craft.s1s">Top Chef Việt Nam 2023 · VTV3</span></div>
+          <div class="stat"><b>Master Chef</b><span data-i18n="craft.s2s">World’s Master Chef 2024 · Singapore</span></div>
+          <div class="stat"><b>HCV · HCĐ</b><span data-i18n="craft.s3s">Đầu bếp Việt Nam Tài năng 2022 &amp; 2015</span></div>
+        </div>
+        <div style="margin-top:32px;display:flex;gap:14px;flex-wrap:wrap">
+          <button type="button" class="btn btn--solid" id="open-bio" data-i="book"><span data-i18n="craft.cta2">Đọc tiểu sử đầy đủ</span></button>
+          <a href="the-chef.html" class="btn" data-i="arrow" data-i-pos="end"><span data-i18n="craft.cta">Xem trang hành trình</span> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ẨM THỰC ================= -->
+<section class="band band--shell" id="cuisine" data-nav="light">
+  <div class="wrap">
+    <div class="reveal" style="max-width:640px;margin-bottom:56px">
+      <p class="eyebrow" data-i18n="cui.eyebrow">Ẩm thực</p>
+      <h2 class="h-2" data-i18n="cui.h">Món ăn là bằng chứng,<br>không phải thực đơn.</h2>
+      <p class="lead" data-i18n="cui.lead">Năm món, năm vùng đất. Chạm vào từng món để đọc câu chuyện Chef Minh viết cho nó.</p>
+    </div>
+    <div class="dish-grid reveal">
+      <button class="dish dish--a" type="button" data-dish="1">
+        <div class="dish__img">
+          <img src="assets/mon-01-trai-giac.jpg" alt="Gỏi tôm sú" width="1800" height="1199" loading="lazy" decoding="async">
+          <span class="dish__more" data-i18n="cui.more">Đọc câu chuyện</span>
+        </div>
+        <div class="dish__cap">
+          <span class="idx">01</span>
+          <h3 class="h-3" data-i18n="cui.d1n">Gỏi tôm sú</h3>
+          <p data-i18n="cui.d1s">Tôm sú biển tái húng quế · sốt nước mắm đậu phộng · bọt trái giác</p>
+        </div>
+      </button>
+
+      <button class="dish dish--b" type="button" data-dish="2">
+        <div class="dish__img">
+          <img src="assets/mon-02-goi-tom-su.jpg" alt="Nọng heo đen vùng cao nướng muối ớt" width="1800" height="1199" loading="lazy" decoding="async">
+          <span class="dish__more" data-i18n="cui.more">Đọc câu chuyện</span>
+        </div>
+        <div class="dish__cap">
+          <span class="idx">02</span>
+          <h3 class="h-3" data-i18n="cui.d2n">Nọng heo đen vùng cao nướng muối ớt</h3>
+          <p data-i18n="cui.d2s">Sous-vide · rau củ ủ bơ · sốt mù tạc mật ong bạc hà</p>
+        </div>
+      </button>
+
+      <button class="dish dish--h" type="button" data-dish="3">
+        <div class="dish__img">
+          <img src="assets/mon-03-ca-tuyet.jpg" alt="Cá tuyết Na Uy dry-aged áp chảo" width="1800" height="1199" loading="lazy" decoding="async">
+          <span class="dish__more" data-i18n="cui.more">Đọc câu chuyện</span>
+        </div>
+        <div class="dish__cap">
+          <span class="idx">03</span>
+          <h3 class="h-3" data-i18n="cui.d3n">Cá tuyết Na Uy dry-aged áp chảo</h3>
+          <p data-i18n="cui.d3s">Tỏi đen Lý Sơn · tiêu Phú Quốc · bánh phồng tôm</p>
+        </div>
+      </button>
+
+      <button class="dish dish--h" type="button" data-dish="4">
+        <div class="dish__img">
+          <img src="assets/mon-04-nong-heo.jpg" alt="Gà đen H’Mông cuộn bắp non nướng xông gỗ quế" width="1800" height="1199" loading="lazy" decoding="async">
+          <span class="dish__more" data-i18n="cui.more">Đọc câu chuyện</span>
+        </div>
+        <div class="dish__cap">
+          <span class="idx">04</span>
+          <h3 class="h-3" data-i18n="cui.d4n">Gà đen H’Mông cuộn bắp non nướng xông gỗ quế</h3>
+          <p data-i18n="cui.d4s">Sốt chẩm chéo hạt dổi · măng rừng nướng · nếp nương hấp lá dứa</p>
+        </div>
+      </button>
+
+    </div>
+    <div style="margin-top:52px" class="reveal">
+      <a href="cuisine.html" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="cui.cta2">Xem trang ẩm thực </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRIẾT LÝ ================= -->
+<section class="band band--dark" id="philosophy" style="text-align:center">
+  <div class="ph-bg" style="--ph-bg:url('assets/logo-banner.jpg')" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="stalk-rule reveal" style="margin-bottom:38px">
+      <svg viewBox="60 0 80 44" aria-hidden="true"><use href="#stalk"/></svg>
+    </div>
+
+    <blockquote class="reveal" style="margin:0 auto;max-width:20ch">
+      <p style="font-family:var(--display);font-weight:400;margin:0;color:var(--shell)" data-i18n="phil.quote">“Ẩm thực Việt không chỉ là món ăn, mà là câu chuyện về văn hóa, con người và vùng đất.”</p>
+      <p class="phil-sub" data-i18n="phil.quote2">“Giữ hồn Việt trong từng nguyên liệu, dùng kỹ thuật hiện đại để đưa giá trị ấy đối thoại với thế giới.”</p>
+      <footer style="margin-top:24px"><span class="label" data-i18n="phil.attr">Chef Minh Nguyễn</span></footer>
+    </blockquote>
+
+    <div class="medals reveal">
+      <span class="medal medal--years" data-i="years"><b data-i18n="med.y">15+ năm</b></span>
+      <span class="medal medal--gold" data-i="medal"><b>HCV</b> <span data-i18n="med.g">Đầu bếp Việt Nam Tài năng 2022 · U.S. Beef</span></span>
+      <span class="medal medal--silver" data-i="medal"><b>HCB</b> <span data-i18n="med.s">Đầu bếp trẻ Việt Nam Tài năng 2015</span></span>
+      <span class="medal medal--bronze" data-i="medal"><b>HCĐ</b> <span data-i18n="med.b">Đầu bếp Việt Nam Tài năng 2015</span></span>
+      <span class="medal" data-i="toque"><b data-i18n="med.t">Top 4</b> <span data-i18n="med.t2">Top Chef Việt Nam 2023</span></span>
+      <span class="medal" data-i="cutlery"><b data-i18n="med.m">Master Chef</b> <span data-i18n="med.m2">Singapore 2024</span></span>
+    </div>
+
+    <div class="reveal" style="margin-top:30px;display:flex;gap:30px;justify-content:center;flex-wrap:wrap">
+      <span class="label" data-i="leaf" data-i18n="phil.t1">Văn hóa</span>
+      <span class="label" data-i="users" data-i18n="phil.t2">Con người</span>
+      <span class="label" data-i="pin" data-i18n="phil.t3">Vùng đất</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DẢI CHỮ CHẠY ================= -->
+<div class="ticker" id="ticker" aria-hidden="true"></div>
+
+<!-- ================= BỐN TRỤ ================= -->
+<section class="band band--raised" id="pillars">
+  <div class="wrap">
+    <div class="reveal" style="max-width:600px;margin-bottom:52px">
+      <p class="eyebrow" data-i18n="pil.eyebrow">Dịch vụ</p>
+      <h2 class="h-2" data-i18n="pil.h">Bốn cách để làm việc<br>cùng Chef Minh.</h2>
+    </div>
+    <div class="pillars reveal">
+      <article class="pillar pillar--lg">
+        <span class="pillar__rank" data-i18n="pil.focus">Đang mở rộng</span>
+        <h3 class="h-3" data-i18n="pil.p1h">Đào tạo</h3>
+        <p class="small" data-i18n="pil.p1s">Dạy nghề bếp cho người muốn đi đường dài, không dạy mẹo.</p>
+        <ul>
+          <li data-i18n="pil.p1a">Khai giảng liên tục các khoá 1 kèm 1 VIP</li>
+          <li data-i18n="pil.p1b">Thiết kế menu cá nhân hoá</li>
+          <li data-i18n="pil.p1c">Lớp chuyên đề món Việt – Âu trong ngày</li>
+          <li data-i18n="pil.p1d">Đào tạo học viên online từ xa</li>
+          <li data-i18n="pil.p1e">Chuyển giao công thức sốt các loại</li>
+        </ul>
+        <a href="academy.html" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="pil.p1cta">Xem các khóa học </a>
+      </article>
+      <article class="pillar pillar--lg">
+        <span class="pillar__rank" data-i18n="pil.focus">Đang mở rộng</span>
+        <h3 class="h-3" data-i18n="pil.p2h">Thương hiệu</h3>
+        <p class="small" data-i18n="pil.p2s">Đồng hành cùng các nhãn hàng bằng chuyên môn lâu năm và cả hình ảnh thực tế.</p>
+        <ul>
+          <li data-i18n="pil.p2a">Hợp tác quảng bá cùng nhãn hàng</li>
+          <li data-i18n="pil.p2b">KOL ngành ẩm thực</li>
+          <li data-i18n="pil.p2c">Sản xuất video, hình ảnh quảng bá sản phẩm</li>
+          <li data-i18n="pil.p2d">Biểu diễn ẩm thực quảng bá</li>
+        </ul>
+        <a href="services.html#brand" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="pil.p2cta">Xem hồ sơ hợp tác </a>
+      </article>
+      <article class="pillar pillar--sm">
+        <h3 class="h-3" data-i18n="pil.p3h">Tư vấn</h3>
+        <p class="small" data-i18n="pil.p3s">Dựng bếp, dựng thực đơn, dựng cách vận hành.</p>
+        <ul>
+          <li data-i18n="pil.p3a">Phát triển thực đơn</li>
+          <li data-i18n="pil.p3b">Setup bếp và nhà hàng</li>
+          <li data-i18n="pil.p3c">Vận hành và huấn luyện đội bếp</li>
+          <li data-i18n="pil.p3d">Giải pháp khắc phục để tối ưu vận hành nhà bếp</li>
+        </ul>
+        <a href="services.html#consulting" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="pil.p3cta">Trao đổi về nhà hàng </a>
+      </article>
+      <article class="pillar pillar--sm">
+        <h3 class="h-3" data-i18n="pil.p4h">Trải nghiệm</h3>
+        <p class="small" data-i18n="pil.p4s">Cá nhân hoá bữa tiệc của bạn bằng cách cộng tác với Chef Minh Nguyễn trong những dịch vụ dưới đây.</p>
+        <ul>
+          <li data-i18n="pil.p4a">Private Chef</li>
+          <li data-i18n="pil.p4b">Private Dining</li>
+          <li data-i18n="pil.p4c">Sự kiện riêng</li>
+        </ul>
+        <a href="services.html#experiences" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="pil.p4cta">Đặt trải nghiệm </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACADEMY ================= -->
+<section class="band band--shell" id="academy" data-nav="light">
+  <div class="wrap">
+    <div class="reveal" style="max-width:600px;margin-bottom:48px">
+      <p class="eyebrow" data-i18n="aca.eyebrow">Academy</p>
+      <h2 class="h-2" data-i18n="aca.h">Học cùng Chef Minh.</h2>
+      <p class="lead" data-i18n="aca.lead">Lớp giới hạn số người để mỗi học viên đều được đứng bếp thật.</p>
+    </div>
+    <div class="courses reveal">
+      <article class="course">
+        <div class="mo-frame" style="position:relative">
+          <img src="assets/academy-01.jpg" alt="Học nấu ăn để làm chủ" width="1600" height="1000" loading="lazy" decoding="async">
+          <span class="course__badge" data-i="clock"><span data-i18n="aca.c1badge">Khai giảng liên tục</span></span>
+        </div>
+        <div class="course__in">
+          <h3 data-i18n="aca.c1h">Học nấu ăn để làm chủ</h3>
+          <p class="course__desc" data-i18n="aca.c1s">Dành cho người sắp mở nhà hàng và muốn tự đứng bếp, tự giữ công thức.</p>
+          <div class="course__spec">
+            <div><b data-i18n="aca.c1sk1">Thời lượng</b><span data-i18n="aca.c1sv1">Theo lịch của bạn</span></div>
+            <div><b data-i18n="aca.c1sk2">Quy mô lớp</b><span data-i18n="aca.c1sv2">1 kèm 1 VIP</span></div>
+          </div>
+          <ul class="course__ask">
+            <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 18 20 6"/></svg><span data-i18n="aca.c1a1">Muốn mở nhà hàng và tự giữ bí quyết công thức</span></li>
+            <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 18 20 6"/></svg><span data-i18n="aca.c1a2">Chưa biết cách tính giá bán và kiểm soát chi phí</span></li>
+          </ul>
+          <ul class="course__rows">
+            <li><b data-i18n="aca.c1rk1">Khai giảng</b><span data-i18n="aca.c1rv1">Liên tục quanh năm</span></li>
+            <li><b data-i18n="aca.c1rk2">Địa điểm</b><span data-i18n="aca.c1rv2">TP. Hồ Chí Minh · hoặc online</span></li>
+            <li><b data-i18n="aca.c1rk3">Đặc biệt</b><span data-i18n="aca.c1rv3">Thiết kế menu học theo yêu cầu học viên</span></li>
+            <li><b data-i18n="aca.c1rk4">Sau khoá</b><span data-i18n="aca.c1rv4">Hỗ trợ kèm 24/7, ưu đãi tư vấn set up</span></li>
+          </ul>
+          <a class="course__more" href="index.html?need=hoc#contact" data-i="arrow" data-i-pos="end"><span data-i18n="aca.more">Xem chi tiết &amp; đăng ký</span> </a>
+        </div>
+      </article>
+      <article class="course">
+        <div class="mo-frame" style="position:relative">
+          <img src="assets/academy-02.jpg" alt="Lớp món Á – Âu cơ bản" width="1600" height="1000" loading="lazy" decoding="async">
+          <span class="course__badge" data-i="clock"><span data-i18n="aca.c2badge">Khai giảng liên tục</span></span>
+        </div>
+        <div class="course__in">
+          <h3 data-i18n="aca.c2h">Lớp món Á – Âu cơ bản</h3>
+          <p class="course__desc" data-i18n="aca.c2s">Dành cho người mới bước vào nghề bếp, cần một lộ trình rõ ràng.</p>
+          <div class="course__spec">
+            <div><b data-i18n="aca.c2sk1">Thời lượng</b><span data-i18n="aca.c2sv1">1 – 2 tháng</span></div>
+            <div><b data-i18n="aca.c2sk2">Quy mô lớp</b><span data-i18n="aca.c2sv2">Tối đa 2 – 3 người</span></div>
+          </div>
+          <ul class="course__ask">
+            <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 18 20 6"/></svg><span data-i18n="aca.c2a1">Muốn làm nghề bếp nhưng chưa biết bắt đầu từ đâu</span></li>
+            <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 18 20 6"/></svg><span data-i18n="aca.c2a2">Muốn học từ một người thầy đã thành công trong nghề</span></li>
+          </ul>
+          <ul class="course__rows">
+            <li><b data-i18n="aca.c2rk1">Khai giảng</b><span data-i18n="aca.c2rv1">Liên tục quanh năm</span></li>
+            <li><b data-i18n="aca.c2rk2">Lịch học</b><span data-i18n="aca.c2rv2">Phù hợp người vừa đi làm vừa học</span></li>
+            <li><b data-i18n="aca.c2rk3">Địa điểm</b><span data-i18n="aca.c2rv3">TP. Hồ Chí Minh</span></li>
+            <li><b data-i18n="aca.c2rk4">Cách dạy</b><span data-i18n="aca.c2rv4">Truyền đạt bằng toàn bộ kinh nghiệm thực chiến</span></li>
+          </ul>
+          <a class="course__more" href="index.html?need=hoc#contact" data-i="arrow" data-i-pos="end"><span data-i18n="aca.more">Xem chi tiết &amp; đăng ký</span> </a>
+        </div>
+      </article>
+      <article class="course">
+        <div class="mo-frame" style="position:relative">
+          <img src="assets/press-digicook.jpg" alt="Khoá Á – Âu nâng cao" width="1600" height="1000" loading="lazy" decoding="async">
+          <span class="course__badge" data-i="clock"><span data-i18n="aca.c3badge">Khai giảng hằng tháng</span></span>
+        </div>
+        <div class="course__in">
+          <h3 data-i18n="aca.c3h">Khoá Á – Âu nâng cao</h3>
+          <p class="course__desc" data-i18n="aca.c3s">Dành cho người đã có nền, muốn đi sâu vào sốt, kỹ thuật và tư duy thi đấu.</p>
+          <div class="course__spec">
+            <div><b data-i18n="aca.c3sk1">Thời lượng</b><span data-i18n="aca.c3sv1">Theo lịch của bạn</span></div>
+            <div><b data-i18n="aca.c3sk2">Quy mô lớp</b><span data-i18n="aca.c3sv2">Tối đa 1 – 2 người</span></div>
+          </div>
+          <ul class="course__ask">
+            <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 18 20 6"/></svg><span data-i18n="aca.c3a1">Học các loại sốt đã thành công tại nhiều cuộc thi</span></li>
+            <li><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5 9 18 20 6"/></svg><span data-i18n="aca.c3a2">Sắp xếp và vận hành nhà bếp chuyên nghiệp</span></li>
+          </ul>
+          <ul class="course__rows">
+            <li><b data-i18n="aca.c3rk1">Khai giảng</b><span data-i18n="aca.c3rv1">Hằng tháng</span></li>
+            <li><b data-i18n="aca.c3rk2">Chuyên sâu</b><span data-i18n="aca.c3rv2">Sốt nền và sốt đặc biệt do Chef sáng tạo</span></li>
+            <li><b data-i18n="aca.c3rk3">Kỹ năng</b><span data-i18n="aca.c3rv3">Trang trí và các trường phái nấu ăn</span></li>
+            <li><b data-i18n="aca.c3rk4">Tư duy</b><span data-i18n="aca.c3rv4">Thi đấu ẩm thực và sáng tạo món</span></li>
+          </ul>
+          <a class="course__more" href="index.html?need=hoc#contact" data-i="arrow" data-i-pos="end"><span data-i18n="aca.more">Xem chi tiết &amp; đăng ký</span> </a>
+        </div>
+      </article>
+    </div>
+    <div style="margin-top:20px" class="reveal">
+      <a href="academy.html" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="aca.all">Xem trang Academy </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TRUYỀN THÔNG ================= -->
+<section class="band band--dark" id="trust">
+  <div class="wrap">
+    <div class="reveal" style="max-width:640px;margin-bottom:48px">
+      <p class="eyebrow" data-i18n="tru.eyebrow">Truyền thông &amp; thành tích</p>
+      <h2 class="h-2" data-i18n="tru.h">Nơi Chef Minh<br>đã xuất hiện.</h2>
+    </div>
+    <div class="videos videos--feat reveal">
+      <button class="lyt" type="button" data-yt="ApH3DkrNGws" aria-label="Phát: Chef Minh Nguyễn — Video 01">
+        <img src="https://i.ytimg.com/vi/ApH3DkrNGws/hqdefault.jpg" alt="Chef Minh Nguyễn — Video 01"
+             width="480" height="360" loading="lazy" decoding="async">
+        <span class="lyt__play" aria-hidden="true"></span>
+        <span class="lyt__cap">Chef Minh Nguyễn — Video 01</span>
+      </button>
+      <button class="lyt" type="button" data-yt="zcRWwyw8PH8" aria-label="Phát: Chef Minh Nguyễn — Video 02">
+        <img src="https://i.ytimg.com/vi/zcRWwyw8PH8/hqdefault.jpg" alt="Chef Minh Nguyễn — Video 02"
+             width="480" height="360" loading="lazy" decoding="async">
+        <span class="lyt__play" aria-hidden="true"></span>
+        <span class="lyt__cap">Chef Minh Nguyễn — Video 02</span>
+      </button>
+      <button class="lyt" type="button" data-yt="yWJtd__ER98" aria-label="Phát: Chef Minh Nguyễn — Video 03">
+        <img src="https://i.ytimg.com/vi/yWJtd__ER98/hqdefault.jpg" alt="Chef Minh Nguyễn — Video 03"
+             width="480" height="360" loading="lazy" decoding="async">
+        <span class="lyt__play" aria-hidden="true"></span>
+        <span class="lyt__cap">Chef Minh Nguyễn — Video 03</span>
+      </button>
+    </div>
+    <div class="press-grid press-grid--feat reveal">
+      <a class="pcard" href="https://htv.vn/sieu-bep-mua-2-tap-8-sieu-bep-minh-nguyen-va-nhung-mon-an-thuong-nho-mien-tay-222260102181331923.htm" target="_blank" rel="noopener">
+        <span class="pcard__img">
+          <img src="assets/mon-01-trai-giac.jpg" alt="Siêu Bếp mùa 2 · Tập 8 — Những món ăn thương nhớ miền Tây" width="820" height="470" loading="lazy" decoding="async">
+          <span class="pcard__src">HTV</span>
+        </span>
+        <span class="pcard__body">
+          <span class="pcard__meta">01 · 2026</span>
+          <h3 data-i18n="art.t1">Siêu Bếp mùa 2 · Tập 8 — Những món ăn thương nhớ miền Tây</h3>
+          <p data-i18n="art.s1">Chef Minh Nguyễn mang trái giác và tôm sú, hai đặc sản quê hương Sóc Trăng, lên sóng HTV7.</p>
+          <span class="pcard__go" data-i="arrow" data-i-pos="end"><span data-i18n="art.read">Đọc bài viết</span> </span>
+        </span>
+      </a>
+      <a class="pcard" href="https://htv.vn/sieu-bep-mua-2-tap-5-sieu-bep-minh-nguyen-chinh-phuc-thuc-khach-voi-mon-an-chua-lanh-222251212082122084.htm" target="_blank" rel="noopener">
+        <span class="pcard__img">
+          <img src="assets/press-sieubep-01.jpg" alt="Siêu Bếp mùa 2 · Tập 5 — Chinh phục thực khách bằng món ăn chữa lành" width="820" height="470" loading="lazy" decoding="async">
+          <span class="pcard__src">HTV</span>
+        </span>
+        <span class="pcard__body">
+          <span class="pcard__meta">12 · 2025</span>
+          <h3 data-i18n="art.t2">Siêu Bếp mùa 2 · Tập 5 — Chinh phục thực khách bằng món ăn chữa lành</h3>
+          <p data-i18n="art.s2">Món xôi gà thực dưỡng không dùng đạm động vật, kể lại quãng thời gian Chef sống ở vùng cao Tây Bắc.</p>
+          <span class="pcard__go" data-i="arrow" data-i-pos="end"><span data-i18n="art.read">Đọc bài viết</span> </span>
+        </span>
+      </a>
+      <a class="pcard" href="https://vietnamtre.vn/chef-minh-nguyen-su-gia-cua-am-thuc-viet-tren-dat-chau-au-va-nhung-chia-se-day-thu-vi-c2401410/" target="_blank" rel="noopener">
+        <span class="pcard__img">
+          <img src="assets/chef-portrait.jpg" alt="Sứ giả của ẩm thực Việt trên đất châu Âu" width="820" height="470" loading="lazy" decoding="async">
+          <span class="pcard__src">Việt Nam Trẻ</span>
+        </span>
+        <span class="pcard__body">
+          <span class="pcard__meta">2024</span>
+          <h3 data-i18n="art.t3">Sứ giả của ẩm thực Việt trên đất châu Âu</h3>
+          <p data-i18n="art.s3">Chef Minh Nguyễn nói về việc mang hương vị Việt tới thực khách châu Âu và những gì học được trên đường đi.</p>
+          <span class="pcard__go" data-i="arrow" data-i-pos="end"><span data-i18n="art.read">Đọc bài viết</span> </span>
+        </span>
+      </a>
+    </div>
+
+    <div style="margin-top:44px" class="reveal">
+      <a href="press.html" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="tru.all">Xem tất cả </a>
+    </div>
+
+    <div class="kit reveal">
+      <div>
+        <h3 class="h-3" data-i18n="tru.kith">Dành cho nhãn hàng và đối tác</h3>
+        <p class="small" data-i18n="tru.kits">Hồ sơ năng lực đầy đủ: kinh nghiệm, số liệu độ phủ, các chiến dịch đã thực hiện và hình thức hợp tác.</p>
+      </div>
+      <a href="#contact" data-need="brand" class="btn btn--solid" data-i18n="tru.kitcta">Nhận hồ sơ năng lực</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BLOG ================= -->
+<section class="band band--shell" id="blog" data-nav="light">
+  <div class="wrap">
+    <div class="reveal" style="max-width:620px;margin-bottom:48px">
+      <p class="eyebrow" data-i18n="blg.eyebrow">Kiến thức bếp</p>
+      <h2 class="h-2" data-i18n="blg.h">Kiến thức bếp,<br>viết cho người muốn hiểu.</h2>
+      <p class="lead" data-i18n="blg.lead">Kỹ thuật, nguyên liệu Việt và cách nấu — giải thích bằng ngôn ngữ của người đứng bếp.</p>
+    </div>
+    <div class="posts reveal">
+      <a class="post post-link" href="blog/sous-vide.html">
+        <img src="assets/blog-sous-vide.jpg" alt="" width="1800" height="1199" loading="lazy" decoding="async">
+        <span class="post__cat" data-i18n="blg.c1">Kỹ thuật bếp</span>
+        <h3 data-i18n="blg.t1">Sous vide: nấu bằng nhiệt độ, không nấu bằng thời gian</h3>
+        <p data-i18n="blg.s1">Vì sao 63°C giữ được thứ mà 100°C phá mất, và khi nào kỹ thuật này thực sự đáng dùng.</p>
+      </a>
+      <a class="post post-link" href="blog/dry-aging.html">
+        <img src="assets/blog-dry-age.jpg" alt="" width="1800" height="1199" loading="lazy" decoding="async">
+        <span class="post__cat" data-i18n="blg.c2">Nguyên liệu</span>
+        <h3 data-i18n="blg.t2">Dry-age: làm khô có kiểm soát để vị đậm hơn</h3>
+        <p data-i18n="blg.s2">Nguyên lý đằng sau việc cố tình để nguyên liệu mất nước, và ranh giới giữa chín tới và hỏng.</p>
+      </a>
+      <a class="post post-link" href="blog/nuoc-dung.html">
+        <img src="assets/blog-nuoc-dung.jpg" alt="" width="1800" height="1199" loading="lazy" decoding="async">
+        <span class="post__cat" data-i18n="blg.c3">Cách nấu</span>
+        <h3 data-i18n="blg.t3">Nước dùng: phần không ai thấy nhưng quyết định cả món</h3>
+        <p data-i18n="blg.s3">Xương, nhiệt độ, thời gian và lý do nồi nước dùng không bao giờ được sôi bùng.</p>
+      </a>
+    </div>
+    <div style="margin-top:44px" class="reveal">
+      <a href="blog.html" class="link-arrow" data-i="arrow" data-i-pos="end" data-i18n="blg.all">Xem tất cả bài viết </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LIÊN HỆ ================= -->
+<section class="band contact" id="contact">
+  <div class="wrap">
+    <div class="reveal">
+      <h2 class="h-display" style="font-size:clamp(2.4rem,6vw,4.4rem)" data-i18n="con.h">Bắt đầu từ<br>việc của bạn.</h2>
+      <p class="lead" style="margin:26px auto 0;text-align:center" data-i18n="con.lead">Chọn đúng nhu cầu để câu hỏi phía sau đi thẳng vào việc.</p>
+    </div>
+
+    <div class="contact-grid reveal">
+      <div class="contact-grid__left">
+        <p class="eyebrow" data-i18n="con.direct">Liên hệ trực tiếp</p>
+        <div class="info-row">
+          <span class="label" data-i18n="con.email">Email</span>
+          <a href="mailto:thaiminhchef@gmail.com">thaiminhchef@gmail.com</a>
+        </div>
+        <div class="info-row">
+          <span class="label" data-i18n="con.tel">Điện thoại</span>
+          <span class="v"><a href="tel:+84352118837">0352 118 837</a> &nbsp;·&nbsp; <a href="tel:+84961838367">0961 838 367</a></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Zalo</span>
+          <a href="https://zalo.me/0352118837" target="_blank" rel="noopener">0352 118 837</a>
+        </div>
+        <div class="info-row">
+          <span class="label" data-i18n="con.web">Website</span>
+          <a href="https://www.chefminhnguyen.com">chefminhnguyen.com</a>
+        </div>
+        <p class="small" style="margin-top:30px" data-i18n="con.hours">Chef và cộng sự phản hồi trong 24–48 giờ làm việc. Nếu gấp, gọi hoặc nhắn Zalo sẽ nhanh hơn.</p>
+      </div>
+
+      <div class="contact-grid__right">
+        <form class="form is-open" id="form" novalidate>
+          <div class="field">
+            <label for="f-need" data-i18n="f.need">Bạn cần gì?</label>
+            <select id="f-need" name="need">
+              <option value="" data-i18n="f.need0">— Chọn nội dung —</option>
+              <option value="hoc" data-i18n="con.r1">Tôi muốn học</option>
+              <option value="brand" data-i18n="con.r2">Tôi đại diện một thương hiệu</option>
+              <option value="nhahang" data-i18n="con.r3">Tôi có nhà hàng</option>
+              <option value="trainghiem" data-i18n="con.r4">Tôi muốn đặt trải nghiệm</option>
+            </select>
+            <div class="chips" role="group" aria-label="Chọn nhanh">
+              <button class="chip" type="button" data-route="hoc" aria-pressed="false" data-i18n="con.r1">Tôi muốn học</button>
+              <button class="chip" type="button" data-route="brand" aria-pressed="false" data-i18n="con.r2">Tôi đại diện một thương hiệu</button>
+              <button class="chip" type="button" data-route="nhahang" aria-pressed="false" data-i18n="con.r3">Tôi có nhà hàng</button>
+              <button class="chip" type="button" data-route="trainghiem" aria-pressed="false" data-i18n="con.r4">Tôi muốn đặt trải nghiệm</button>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-name" data-i18n="f.name">Họ và tên</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="f-phone" data-i18n="f.phone">Số điện thoại</label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="f-email" data-i18n="f.email">Email</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="f-zalo" data-i18n="f.zalo">Zalo (nếu có)</label>
+              <input id="f-zalo" name="zalo" type="tel">
+            </div>
+          </div>
+
+          <div class="form__row branch" data-branch="hoc" hidden>
+            <div class="field">
+              <label for="f-course" data-i18n="f.course">Khóa quan tâm</label>
+              <input id="f-course" name="course" type="text">
+            </div>
+            <div class="field">
+              <label for="f-level" data-i18n="f.level">Trình độ hiện tại</label>
+              <select id="f-level" name="level">
+                <option data-i18n="f.lv1">Chưa có kinh nghiệm</option>
+                <option data-i18n="f.lv2">Đang làm bếp</option>
+                <option data-i18n="f.lv3">Đã làm nhiều năm</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form__row branch" data-branch="brand" hidden>
+            <div class="field">
+              <label for="f-brand" data-i18n="f.brand">Tên thương hiệu</label>
+              <input id="f-brand" name="brand" type="text">
+            </div>
+            <div class="field">
+              <label for="f-camp" data-i18n="f.camp">Hình thức hợp tác</label>
+              <select id="f-camp" name="campaign">
+                <option data-i18n="f.cp1">Chiến dịch truyền thông</option>
+                <option data-i18n="f.cp2">Nội dung ẩm thực</option>
+                <option data-i18n="f.cp3">Sự kiện</option>
+                <option data-i18n="f.cp4">Đại sứ dài hạn</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form__row branch" data-branch="nhahang" hidden>
+            <div class="field">
+              <label for="f-type" data-i18n="f.type">Loại hình</label>
+              <input id="f-type" name="venue" type="text">
+            </div>
+            <div class="field">
+              <label for="f-stage" data-i18n="f.stage">Giai đoạn</label>
+              <select id="f-stage" name="stage">
+                <option data-i18n="f.st1">Chuẩn bị mở mới</option>
+                <option data-i18n="f.st2">Đang vận hành, cần cải tổ</option>
+                <option data-i18n="f.st3">Mở rộng thêm chi nhánh</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form__row branch" data-branch="trainghiem" hidden>
+            <div class="field">
+              <label for="f-guests" data-i18n="f.guests">Số khách</label>
+              <input id="f-guests" name="guests" type="number" min="1">
+            </div>
+            <div class="field">
+              <label for="f-date" data-i18n="f.date">Ngày mong muốn</label>
+              <input id="f-date" name="date" type="date">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-msg" data-i18n="f.msg">Nội dung</label>
+            <textarea id="f-msg" name="message"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--solid" data-i18n="f.send">Gửi thông tin</button>
+          <p class="form__note" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__panel">
+    <button class="modal__close" type="button" data-close aria-label="Đóng">✕</button>
+    <div class="modal__hero" id="modal-hero"></div>
+    <div class="modal__body">
+      <span class="idx" id="modal-idx"></span>
+      <h3 id="modal-title"></h3>
+      <p class="modal__sub" id="modal-sub"></p>
+      <div class="modal__story" id="modal-story"></div>
+      <div class="modal__alt" id="modal-alt"></div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="bio-modal" role="dialog" aria-modal="true" aria-labelledby="bio-title">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__panel">
+    <button class="modal__close" type="button" data-close aria-label="Đóng">✕</button>
+    <div class="modal__body">
+      <span class="idx" data-i18n="craft.eyebrow">Hành trình</span>
+      <h3 id="bio-title" data-i18n="bio.title">Tiểu sử hoạt động và thành tích</h3>
+      <p class="modal__sub" data-i18n="bio.sub">Chef Minh Nguyễn · 2008 → nay</p>
+      <ol class="tl">
+  <li class="tl__i tl__i--kitchen"><span class="tl__y">2008 – 2012</span><span class="tl__t" data-i18n="bio.1">Bén duyên với nghề bếp khi mới 14 tuổi, bắt đầu làm việc trong bếp nhà hàng của gia đình tại Nhà Bè, TP. Hồ Chí Minh.</span></li>
+  <li class="tl__i tl__i--kitchen"><span class="tl__y">2012 – 2014</span><span class="tl__t" data-i18n="bio.2">Bếp chính tại khách sạn Hương Sen, tiêu chuẩn 3 sao, trung tâm TP. Hồ Chí Minh.</span></li>
+  <li class="tl__i tl__i--world"><span class="tl__y">2014</span><span class="tl__t" data-i18n="bio.3">Sang Thái Lan tu nghiệp để học hỏi từ môi trường quốc tế, trở về nước khi Bangkok xảy ra biến cố.</span></li>
+  <li class="tl__i tl__i--kitchen"><span class="tl__y">2015</span><span class="tl__t" data-i18n="bio.4">Bếp phó nhà hàng The Kafe, TP. Hồ Chí Minh — chuỗi Việt Nam vừa gọi vốn nước ngoài 3,8 triệu đô la, doanh thu 2 – 2,8 tỷ đồng mỗi tháng.</span></li>
+  <li class="tl__i tl__i--award"><span class="tl__y">2015</span><span class="tl__t" data-i18n="bio.5">Huy chương đồng cuộc thi Đầu bếp Việt Nam Tài năng, phần thi set menu món Việt. Cùng năm đạt huy chương bạc giải Đầu bếp trẻ Việt Nam Tài năng do hiệp hội đầu bếp thế giới tổ chức.</span></li>
+  <li class="tl__i tl__i--world"><span class="tl__y">2016 – 2017</span><span class="tl__t" data-i18n="bio.6">Bếp trưởng nhà hàng Indo tại Aarhus, thành phố lớn thứ hai Đan Mạch. Cùng đội ngũ đưa nhà hàng vào top 2 nhà hàng châu Á ngon nhất thành phố do giới phê bình bình chọn, lên báo và truyền hình Đan Mạch.</span></li>
+  <li class="tl__i tl__i--world"><span class="tl__y">2018</span><span class="tl__t" data-i18n="bio.7">Bếp phó nhà hàng Cavas tại Frankfurt, Đức, dưới sự dẫn dắt của bếp trưởng hai sao Michelin Michael Riemenschneider — nơi học thế nào là ẩm thực châu Âu đỉnh cao.</span></li>
+  <li class="tl__i tl__i--home"><span class="tl__y">2019</span><span class="tl__t" data-i18n="bio.8">Quay về Việt Nam tìm nguồn cảm hứng để dựng một hướng đi riêng cho ẩm thực Việt.</span></li>
+  <li class="tl__i tl__i--home"><span class="tl__y">2020 – 2023</span><span class="tl__t" data-i18n="bio.9">Sống và làm việc tại Đồng Văn, Hà Giang. Chủ một homestay tại Làng cổ Thiên Hương.</span></li>
+  <li class="tl__i tl__i--award"><span class="tl__y">2022</span><span class="tl__t" data-i18n="bio.10">Huy chương vàng cuộc thi Đầu bếp Việt Nam Tài năng, phần thi các món thịt bò Mỹ.</span></li>
+  <li class="tl__i tl__i--kitchen"><span class="tl__y">2023</span><span class="tl__t" data-i18n="bio.11">Bếp trưởng điều hành Senna Wellness Retreat Bắc Ninh, tiêu chuẩn 4 sao. Phục vụ các buổi tiệc lớn cho giới doanh nhân và quan chức cấp cao, dẫn dắt đội bếp hơn 20 người.</span></li>
+  <li class="tl__i tl__i--tv"><span class="tl__y">2023</span><span class="tl__t" data-i18n="bio.12">Top 4 chung cuộc Top Chef phiên bản Việt Nam, phát sóng trên VTV3, tranh tài cùng hàng nghìn thí sinh cả nước.</span></li>
+  <li class="tl__i tl__i--world"><span class="tl__y">2024 – 2025</span><span class="tl__t" data-i18n="bio.13">Sống và làm việc tại Budapest, Hungary. Thành lập công ty Le-Ng, chuyên cung cấp giải pháp ẩm thực và set up nhà hàng, quán ăn tại châu Âu.</span></li>
+  <li class="tl__i tl__i--award"><span class="tl__y">2024</span><span class="tl__t" data-i18n="bio.14">Giải thưởng Đầu bếp Bạc do hiệp hội đầu bếp quốc tế Best Gastronomie tại Pháp trao tặng.</span></li>
+  <li class="tl__i tl__i--award"><span class="tl__y">2024</span><span class="tl__t" data-i18n="bio.15">Danh hiệu Master Chef, hạng mục World’s Master Chef của International Business Alliances tại Singapore.</span></li>
+  <li class="tl__i tl__i--tv"><span class="tl__y">2025</span><span class="tl__t" data-i18n="bio.16">Tham gia Siêu Bếp trên HTV7 khung giờ vàng. Ba tập đối đầu ba đầu bếp chuyên nghiệp với ba sở trường khác nhau: thắng 2, hoà 1.</span></li>
+</ol>
+      <p class="eyebrow" style="margin-top:44px" data-i18n="bio.roles">Vai trò hiện tại</p>
+      <div class="roles">
+  <div class="role"><b data-i18n="role.t1">Phó chủ tịch — đại diện Việt Nam</b><span data-i18n="role.d1">Chefs Sans Frontières (CSFint), hiệp hội đầu bếp không biên giới quốc tế do đầu bếp người Anh Alan Coxon sáng lập.</span></div>
+  <div class="role"><b data-i18n="role.t2">Sáng lập và điều hành</b><span data-i18n="role.d2">Viet Chefs Worldwide — tổ chức kết nối đầu bếp Việt Nam trên toàn thế giới.</span></div>
+</div>
+    </div>
+  </div>
+</div>
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft__grid">
+      <div class="ft__brand">
+        <img src="assets/logo-64.png" alt="Chef Minh Nguyễn" width="64" height="64" loading="lazy" decoding="async">
+        <p data-i18n="ft.tag">Ẩm thực Việt, đọc lại bằng kỹ thuật hiện đại.</p>
+        <div class="ft__social">
+          <a href="https://www.facebook.com/Minhnguyensg0110/" target="_blank" rel="noopener" aria-label="Facebook" data-i="fb"></a>
+          <a href="#" aria-label="TikTok" data-i="tiktok"></a>
+          <a href="#" aria-label="YouTube" data-i="yt"></a>
+          <a href="https://zalo.me/0352118837" target="_blank" rel="noopener" aria-label="Zalo" data-i="zalo"></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="ft.h1">Chef</h4>
+        <ul>
+          <li><a href="the-chef.html" data-i="clock"><span data-i18n="ft.l1">Hành trình</span></a></li>
+          <li><a href="the-chef.html#philosophy" data-i="star"><span data-i18n="ft.l2">Triết lý</span></a></li>
+          <li><a href="cuisine.html" data-i="dish"><span data-i18n="ft.l3">Ẩm thực</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.h2">Dịch vụ</h4>
+        <ul>
+          <li><a href="academy.html" data-i="book"><span data-i18n="ft.l4">Đào tạo</span></a></li>
+          <li><a href="services.html#brand" data-i="media"><span data-i18n="ft.l5">Thương hiệu</span></a></li>
+          <li><a href="services.html#consulting" data-i="service"><span data-i18n="ft.l6">Tư vấn</span></a></li>
+          <li><a href="services.html#experiences" data-i="users"><span data-i18n="ft.l7">Trải nghiệm</span></a></li>
+          <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="ft.h3">Liên hệ</h4>
+        <ul>
+          <li><a href="mailto:thaiminhchef@gmail.com">thaiminhchef@gmail.com</a></li>
+          <li><a href="tel:+84352118837">0352 118 837</a></li>
+          <li><a href="https://zalo.me/0352118837" target="_blank" rel="noopener">Zalo: 0352 118 837</a></li>
+          <li><a href="index.html#contact" data-i="mail"><span data-i18n="ft.l8">Gửi yêu cầu</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft__base">
+      <p>© <span id="yr">2026</span> Chef Minh Nguyễn. <span data-i18n="ft.rights">Bảo lưu mọi quyền.</span></p>
+      <a class="sig" href="#" aria-label="Thiết kế bởi mattdesignwebsite">
+        <i></i><span data-i18n="ft.by">Thiết kế</span> <b>mattdesignwebsite</b>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<div class="dock">
+  <a href="https://www.facebook.com/Minhnguyensg0110/" target="_blank" rel="noopener" aria-label="Facebook" data-i="fb"></a>
+  <a href="#" aria-label="TikTok" data-i="tiktok"></a>
+  <a href="https://zalo.me/0352118837" target="_blank" rel="noopener" aria-label="Zalo" data-i="zalo"></a>
+  <button class="dock__top" type="button" id="to-top" aria-label="Về đầu trang" data-i="up"></button>
+</div>
+
+<script src="js/site.js" defer></script>
+</body>
+</html>
