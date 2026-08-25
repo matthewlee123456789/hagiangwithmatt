@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /ads/
-
-Sitemap: https://hagiangwithmatt.com/sitemap.xml
