@@ -1,9 +1,0 @@
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Raw source photos Matt drops in for content work — the processed/selected
-# webp versions that actually ship live in images/, not here. 39MB+ of
-# unoptimised originals has no reason to be in the deployed repo.
-imageblog/
-imgadd/
